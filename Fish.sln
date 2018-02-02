@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fish", "Fish\Fish.csproj", "{B41E3683-F154-4AF6-B587-7D27134D5EDF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{66AA45FD-CCF4-4097-B79E-D465660B17A5} = {66AA45FD-CCF4-4097-B79E-D465660B17A5}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fish.DataAccess", "Fish.DataAccess\Fish.DataAccess.csproj", "{66AA45FD-CCF4-4097-B79E-D465660B17A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B41E3683-F154-4AF6-B587-7D27134D5EDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B41E3683-F154-4AF6-B587-7D27134D5EDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B41E3683-F154-4AF6-B587-7D27134D5EDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B41E3683-F154-4AF6-B587-7D27134D5EDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66AA45FD-CCF4-4097-B79E-D465660B17A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66AA45FD-CCF4-4097-B79E-D465660B17A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66AA45FD-CCF4-4097-B79E-D465660B17A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66AA45FD-CCF4-4097-B79E-D465660B17A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BEA0902A-DED5-4087-82DC-1F60F2B9312F}
+	EndGlobalSection
+EndGlobal
