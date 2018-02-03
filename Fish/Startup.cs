@@ -19,7 +19,7 @@ namespace FISH
     public class Startup
     {
         public IConfigurationRoot Configuration { get; }
-        private const string EmailConfirmationTokenProviderName = "ConfirmEmail";
+        private readonly string EmailConfirmationTokenProviderName = "ConfirmEmail";
 
         public Startup(IHostingEnvironment env)
         {
